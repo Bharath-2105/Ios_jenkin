@@ -15,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh """
-                    cd $WORKSPACE
+                    cd Instant-AR/
                     export PATH="$PATH:$FASTLANE_HOME"
                     fastlane build_app
                 """
