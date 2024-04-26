@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent any{
+        label 'mac_node4'
+    }
     
     environment {
         FASTLANE_HOME = "/opt/homebrew/bin/fastlane"
@@ -8,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git
+                git branch: 'main', url: 'https://github.com/Bharath-2105/Ios_jenkin.git'
             }
         }
         
