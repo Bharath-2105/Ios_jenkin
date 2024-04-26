@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000174">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: xcode_select" time="0.000114">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: increment_build_number" time="0.131431">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: update_project_team" time="0.05574">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: build_app" time="41.156972">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: curl -F &apos;file=@/Users/buildmachine/jnode/workspace/Dcode_ios_testflight_upload/Instant-AR/Instant-AR.ipa&apos; -X POST -k https://apps.teamta.net/uploadbinary.php" time="1.187077">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: touch curl_slack.log" time="0.012039">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: echo &apos;  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1937k    0    55  100 1937k     47  1657k  0:00:01  0:00:01 --:--:-- 1659k100 1937k    0    55  100 1937k     47  1657k  0:00:01  0:00:01 --:--:-- 1657k
+https://apps.teamta.net?id=com.teamta.dcode.unpublished&apos; &gt;&gt; curl_slack.log" time="0.010772">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: tail -1 curl_slack.log" time="0.007016">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="9: git log -1 --pretty=%B" time="0.023114">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "default3DIcon.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
